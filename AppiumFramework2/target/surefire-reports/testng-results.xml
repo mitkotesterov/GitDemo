@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="109214" started-at="2022-03-15T14:32:40 EET" finished-at="2022-03-15T14:34:29 EET">
+    <groups>
+    </groups>
+    <test name="C:/Users/DimitarDimitrov/IdeaProjects/AppiumFramework" duration-ms="109214" started-at="2022-03-15T14:32:40 EET" finished-at="2022-03-15T14:34:29 EET">
+      <class name="Practice.Ecommerce_tc_4">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:Practice.Ecommerce_tc_4@a74868d]" name="killAllNodes" is-config="true" duration-ms="2036" started-at="2022-03-15T14:32:40 EET" finished-at="2022-03-15T14:32:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="totalValidation(java.lang.String)[pri:0, instance:Practice.Ecommerce_tc_4@a74868d]" name="totalValidation" duration-ms="55308" started-at="2022-03-15T14:32:42 EET" data-provider="InputName" finished-at="2022-03-15T14:33:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mitko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- Practice.Ecommerce_tc_4 -->
+      <class name="Practice.ApiDemoTest">
+        <test-method status="PASS" signature="apiDemoTest(java.lang.String)[pri:0, instance:Practice.ApiDemoTest@1990a65e]" name="apiDemoTest" duration-ms="24856" started-at="2022-03-15T14:33:37 EET" data-provider="InputData" finished-at="2022-03-15T14:34:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemoTest -->
+        <test-method status="PASS" signature="apiDemoTest(java.lang.String)[pri:0, instance:Practice.ApiDemoTest@1990a65e]" name="apiDemoTest" duration-ms="26968" started-at="2022-03-15T14:34:02 EET" data-provider="InputData" finished-at="2022-03-15T14:34:29 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemoTest -->
+      </class> <!-- Practice.ApiDemoTest -->
+    </test> <!-- C:/Users/DimitarDimitrov/IdeaProjects/AppiumFramework -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

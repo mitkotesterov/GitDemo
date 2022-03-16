@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="resources.Listeners"/>
+        <listener class-name="resources.ExtentReporterNG"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/DimitarDimitrov/IdeaProjects/AppiumFramework">
+        <classes>
+            <class name="Practice.Ecommerce_tc_4"/>
+            <class name="Practice.ApiDemoTest"/>
+        </classes>
+    </test>
+</suite>
