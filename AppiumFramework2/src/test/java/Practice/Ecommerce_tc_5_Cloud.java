@@ -81,6 +81,9 @@ public class Ecommerce_tc_5_Cloud extends base {
         value = value.substring(1);
         double amount2Value = Double.parseDouble(value);
         return amount2Value;
+        System.out.println("postJira11");
+        System.out.println("postJira12");
+        System.out.println("postJira13");
 
     }
 
@@ -95,6 +98,31 @@ public class Ecommerce_tc_5_Cloud extends base {
         System.out.println("postJira4");
         System.out.println("postJira5");
         System.out.println("postJira6");
+
+    } @Test
+    public void postJira() {
+        System.out.println("postJira1");
+        System.out.println("postJira2");
+        System.out.println("postJira3");
+        //asdfasdf
+        ////
+        ///asdf/
+        System.out.println("postJira4");
+        System.out.println("postJira5");
+        System.out.println("postJira6");
+
+    } @Test
+    public void postJira() {
+        System.out.println("postJira1");
+        System.out.println("postJira2");
+        System.out.println("postJira3");
+        //asdfasdf
+        ////
+        ///asdf/
+        System.out.println("postJira4");
+        System.out.println("postJira5");
+        System.out.println("postJira6");
+        System.out.println("postJira13");
 
     }
 }
